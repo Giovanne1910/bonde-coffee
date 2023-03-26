@@ -1,0 +1,198 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style/custom.css">
+    <title>Bonde Coffee</title>
+</head>
+
+<body>
+
+    <header>
+
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <img class="logo" src="images/logotipo-caf.avif">
+
+                        <div class="col"></div>
+                        <ul class="nav justify-content-end">
+                            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#Sobre">Sobre</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#Produtos">Produtos</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#Contato">Contato</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            </div>
+        </header>
+
+        <Section id="Sobre">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 col-sml-12">
+                        <h2>Sobre a Empresa</h2>
+                        <P>Bonde Coffee to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</P>
+                    </div>
+                    <div class="col-md-5 col-sm-12">
+                        <img src="images/coffee.jpg" alt="Café" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+
+        </Section>
+
+        <section id="Produtos">
+
+            <div class="container">
+                
+                <h2 class="mb-3">Produtos</h2>
+                
+                <div class="row">
+                    
+                    <!-- INICIA A COLUNA -->
+                    <div class="col">
+                        <div class="card">
+
+                            <img src="images/coffee-3.jpg" alt="produtos" class="img-fluid">
+
+                            <div class="card-body">
+
+                                <h5 class="card-title">Contrary to popular belief, Lorem Ipsum is not simply random text.</h5>
+                                <p class="card-text">Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+                                <a class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modal-1" href="#produto-1">Ver mais</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FECHA A COLUNA -->
+                    
+                    <!-- INICIA A COLUNA -->
+                    <div class="col">
+                        <div class="card">
+
+                            <img src="images/coffee-2.jpg" alt="produtos" class="img-fluid">
+
+                            <div class="card-body">
+
+                                <h5 class="card-title">Contrary to popular belief, Lorem Ipsum is not simply random text.</h5>
+                                <p class="card-text">Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+                                <a class="btn btn-warning" href="#produto-1">Ver mais</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FECHA A COLUNA -->
+                    
+                    <!-- INICIA A COLUNA -->
+                    <div class="col">
+                        <div class="card">
+
+                            <img src="images/coffee-1.jpg" alt="produtos" class="img-fluid">
+
+                            <div class="card-body">
+
+                                <h5 class="card-title">Contrary to popular belief, Lorem Ipsum is not simply random text.</h5>
+                                <p class="card-text">Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+                                <a class="btn btn-warning" href="#produto-1">Ver mais</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FECHA A COLUNA -->
+                    
+                </div>
+            </div>
+
+        </section>
+
+        <section id="Contato">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <h2>Contato</h2>
+                        <p>Ficou interessado?<br>Preencha os campos ao lado para realizar uma cotação.</p>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <form class="form">
+                            <div class="input-group">
+                                <input class="form-control" type="text" name="nome" placeholder="digite seu nome">
+                            </div>
+
+                            <div class="input-group">
+                                <input class="form-control" type="text" name="email" placeholder="digite seu E-mail">
+                            </div>
+
+                            <button type="submit" class="btn btn-warning">Solicitar cotação</button>
+
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+
+
+        <div class="modal fade" id="modal-1">
+          <div class="modal-dialog">
+
+            <div class="model-content">
+
+              <div class="modal-header">
+                
+                <h5 class="modal-title">Produto 1</h5>
+                <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+              </div>
+
+              <div class="modal-body">
+        
+                <table class="table table-hover table-striped">
+                  <thead>
+                  <tr>
+                    <th>Tamanho</th>
+                    <th>Valor</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>500g</th>
+                    <th>R$ 50,00</th>
+                  </tr>
+                </tbody>
+                </table>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <footer class="text-center text-white" style="background-color: #ffffff;">
+          <!-- Grid container -->
+          <div class="container p-4"></div>
+          <!-- Grid container -->
+        
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: rgba(91, 58, 35);">
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">Bonde Coffee</a>
+          </div>
+          <!-- Copyright -->
+        </footer>
+        
+        <script src="bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
